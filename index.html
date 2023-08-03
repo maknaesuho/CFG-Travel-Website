@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link href="main.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Notable' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Archivo Black' rel='stylesheet'>
+   
+    <title>Project</title>
+</head>
+<body>
+ <!--Navigation Bar--> 
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+        <img src="./img/png/logo-no-background.png" alt="Logo" width="150" height="90" class="d-inline-block align-text-top">
+      </a>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active.link">
+            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Destinations
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="Maldives.html">Maldives</a></li>
+              <li><a class="dropdown-item" href="Alps.html">Alps</a></li>
+              <li><a class="dropdown-item" href="London.html">London</a></li>
+            </ul>
+          </li>
+        </ul>
+        <div class="navbar-text mx-auto">
+          <h2>Destination Dreams</h2>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!--Carousel-->
+  <div id="carouselExampleIndicators" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner text-center">
+        <div class="carousel-item active">
+          <img src="./img/balloons.jpg" class="d-block w-100" alt="Turkey">
+          <div class="carousel-caption d-flex h-100 align-items-center justify-content-center">
+            <h1>YOUR ADVENTURE AWAITS</h1>
+        </div>
+      </div>
+        <div class="carousel-item">
+          <img src="./img/beach.jpg" class="d-block w-100" alt="Beach">
+          <div class="carousel-caption d-flex h-100 align-items-center justify-content-center">
+            <h1>LET'S EXPLORE THE WORLD</h1>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./img/town.jpg" class="d-block w-100" alt="Towm">
+          <div class="carousel-caption d-flex h-100 align-items-center justify-content-center">
+            <h1>TOGETHER</h1>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+  </div>
+
+  <h1 class="destinations">OUR TOP DESTINATIONS</h1>
+ <!--GALLERY--> 
+ <div class="gallery">
+  <div class="image-container">
+    <a href="Maldives.html">
+    <img src="./img/maldives.jpg" alt="Maldives">
+    <div class="overlay">
+      <div class="description">Discover the serene beaches and crystal-clear waters of the Maldives, a tropical paradise like no other.</div>
+    </div>
+  </a>
+  </div>
+  <div class="image-container">
+    <a href="Alps.html">
+    <img src="./img/alps.jpg" alt="Alps">
+    <div class="overlay">
+      <div class="description">Experience the awe-inspiring grandeur of the Alps, where snow-capped peaks and picturesque landscapes await.</div>
+    </div>
+    </a>
+  </div>
+  <div class="image-container">
+    <a href="London.html">
+    <img src="./img/london.jpg" alt="London">
+    <div class="overlay">
+      <div class="description">Indulge in the rich history, iconic landmarks, and diverse culture of London, a city that never fails to captivate.</div>
+    </div>
+    </a>
+  </div>
+  </div>
+
+
+  <!--About section (2 columns)-->
+  <div class="container text-center mobile-padding">
+    <div class="row">
+      <div class="col-lg">
+        <h1 class="about-title">About Us</h1>
+        <img class="about-img" src="./img/png/logo-color.png" alt="Logo">
+      </div>
+      <div class="col-lg">
+        <h4 class="about-subheading-main"><i>Destination Dreams - Your Gateway to Unforgettable Journeys</i></h4>
+  
+        <!-- Bootstrap Accordion -->
+        <div id="accordion">
+  
+          <!-- How We Started -->
+          <div class="accordion-item">
+            <div class="accordion-header" id="heading1">
+              <h2 class="accordion-heading mb-0">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1">
+                  How We Started - Our Journey to Excellence
+                </button>
+              </h2>
+            </div>
+            <div id="collapse1" class="accordion-collapse collapse" aria-labelledby="heading1" data-bs-parent="#accordion">
+              <div class="accordion-body">
+                <p>Welcome to Destination Dreams, your ultimate travel company for creating extraordinary memories and unforgettable journeys. We take pride in curating exceptional travel experiences that immerse you in the beauty of the world's most captivating destinations.</p>
+              </div>
+            </div>
+          </div>
+  
+          <!-- Our Destinations -->
+          <div class="accordion-item">
+            <div class="accordion-header" id="heading2">
+              <h2 class="accordion-heading mb-0">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2">
+                  Our Destinations - Exploring the World's Treasures
+                </button>
+              </h2>
+            </div>
+            <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="heading2" data-bs-parent="#accordion">
+              <div class="accordion-body">
+                <p>Embark on a surreal journey to the <a href="Maldives.html"> Maldives</a>, where pristine white beaches meet crystal-clear turquoise waters. Relax in luxurious overwater bungalows, dive into vibrant coral reefs teeming with marine life, and experience the sheer tranquility of this exotic paradise. 
+                  <br>Conquer the majestic <a href="Alps.html"> Alps</a>, where snow-capped peaks and lush valleys await. Indulge in thrilling skiing adventures, hiking expeditions, and breathtaking panoramic views that will leave you in awe of nature's grandeur. 
+                  <br>Discover the vibrant city of <a href="London.html"> London</a>, where history, culture, and modernity blend seamlessly. Uncover the iconic landmarks, such as Big Ben, Buckingham Palace, and the Tower of London, while immersing yourself in the city's bustling atmosphere.</p>
+              </div>
+            </div>
+          </div>
+  
+          <!-- Our Values -->
+          <div class="accordion-item">
+            <div class="accordion-header" id="heading3">
+              <h2 class="accordion-heading mb-0">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3">
+                  Our Values - Passion for Extraordinary Experiences
+                </button>
+              </h2>
+            </div>
+            <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="heading3" data-bs-parent="#accordion">
+              <div class="accordion-body">
+                <p>At Destination Dreams, our values are built on a genuine passion for creating extraordinary experiences for our valued travelers. We believe in personalized service, attention to detail, and a commitment to providing you with the most memorable journeys of a lifetime.</p>
+              </div>
+            </div>
+          </div>
+  
+          <!-- Why Choose Us -->
+          <div class="accordion-item">
+            <div class="accordion-header" id="heading4">
+              <h2 class="accordion-heading mb-0">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4">
+                  Why Choose Us - Your Trusted Travel Companion
+                </button>
+              </h2>
+            </div>
+            <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="heading4" data-bs-parent="#accordion">
+              <div class="accordion-body">
+                <p>Choose Destination Dreams as your trusted travel companion, and let us fulfill your wanderlust dreams. With our dedicated team of travel experts, seamless planning, and top-notch accommodations, we ensure every step of your journey is as remarkable as the destinations you explore. 
+                  <br>Join us in crafting unforgettable memories that will stay with you forever. Welcome to Destination Dreams - where your dream vacations become a reality.</p>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+  
+      </div>
+    </div>
+  </div>
+  
+
+  <!--footer with contact information-->
+
+  <div class="footer">
+
+  <div class="border-custom"></div>
+
+  <div class="container text-center pb-5">
+      <div class="row">
+      <div class="col-sm-4">
+          
+          <p class="footer-txt footer-mobile-txt">
+              Destination Dreams
+              <br />
+              Address line 1
+              <br />
+              France
+              <br />
+              <br />
+              🇫🇷 (+33) 09 47 92 40 24
+              <br />
+              <br />
+              ✉️ destination.dreams@gmail.com
+           </p>
+      
+      </div>
+      
+      <div class="col-sm-4">
+          <img class="footer-logo" src="img/png/logo-no-background.png" alt="Logo" width="25%">
+      </div>
+
+      <div class="col-sm-4">
+
+          <h4 class="footer-menu footer-mobile-txt">Menu</h4>
+
+          <p class="footer-menu footer-mobile-txt">
+              <a href="index.html" style="text-decoration: none; color:white">
+                  Home
+              </a> <br/>
+              <a href="Alps.html" style="text-decoration: none; color:white">
+                  The Alps
+              </a> <br/>
+              <a href="London.html" style="text-decoration: none; color:white">
+                  London
+              </a> <br/>
+              <a href="Maldives.html" style="text-decoration: none; color:white">
+                  The Maldives
+              </a> <br/>
+          </p>
+          
+      </div>
+
+      </div>
+  </div>
+
+  </div>
+  
+  
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>
