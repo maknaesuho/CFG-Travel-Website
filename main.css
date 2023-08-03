@@ -1,0 +1,369 @@
+.body{
+  margin: 0;
+  padding-left: 5%;
+  overflow-x: hidden;
+}
+
+/*NAVIGATION BAR*/
+nav {
+    background-color: #398378;
+}
+.nav-link {
+  font-family: Verdana;
+  font-weight: bold;
+  font-size: larger;
+  color: white;
+}
+.navbar-text {
+    font-family: Notable;
+    color: white;
+    justify-content: center;
+}
+h2 {
+    margin: 0;
+    text-align: center;
+    width: 100%;
+}
+
+/*CAROUSEL MAIN PAGE*/
+.carousel-inner .carousel-item img {
+    height: 600px; 
+    object-fit: cover;
+}
+.carousel-item {
+    height: 600px;
+    background-size: cover;
+    background-position: center center;
+    opacity: 0.8;
+}
+
+.carousel-item h1 {
+    margin: 0;
+    color: white;
+    font-family: notable;
+    font-size: 60px;
+}
+
+/*OUR TOP DESTINATIONS H1*/
+h1.destinations {
+    font-family: 'Archivo Black';
+    text-align: center;
+    color: #398378;
+    margin-top: 2cm;
+    margin-bottom: 1cm;
+}
+
+/*ABOUT DESTINATION TEXT*/
+h1.about-title {
+  font-family: 'Archivo Black';
+  text-align: left;
+  color: #398378;
+  margin-top: 2cm;
+  margin-bottom: 1cm;
+}
+
+/*GALLERY MAIN*/
+.gallery {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-bottom: 20px;
+}
+
+.about-gallery{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-bottom: 30px; 
+  height: 300px;
+  overflow: hidden;
+}
+
+.image-container {
+  position: relative;
+  text-align: center;
+  width: 500px; /* Set the desired width */
+  height: 450px; /* Set the desired height */
+  margin-right: 20px;
+}
+
+.image-container:last-child {
+  margin-right: 0; /* Remove margin on the last image to avoid extra spacing */
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.image-container .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.7); /* Set the desired background color */
+  transition: opacity 0.3s ease-in-out;
+}
+
+.image-container:hover .overlay {
+  opacity: 1; /* Set the desired opacity when hovering */
+}
+
+/*EACH DESTINATION INDIVIDUAL BANNER*/
+.description {
+  color: #ffffff; /* Set the desired text color */
+  font-size: 30px; /* Set the desired font size */
+  text-align: center;
+}
+
+.banner-container{
+  height: 450px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.banner-img{
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+/*ABOUT TEXT AND IMAGE (MAIN AND INDIVIDUAL*/
+.about-img{
+  width: 100%;
+}
+
+.about-txt{
+  text-align: left;
+  font-size: medium;
+}
+
+.about-subheading{
+  text-align: left;
+  padding-top: 4cm;
+}
+
+.about-subheading-main {
+  font-family: 'Archivo Black';
+  color:#398378;
+  text-align: center;
+  padding-top: 4cm;
+  padding-bottom: 1cm;
+}
+
+/*FOOTER*/
+.border-custom{
+  border-top: 2px solid white;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.footer{
+  width: 100%;
+  background-color: #398378;
+  margin-top: 5%;
+  padding-top: 3%;
+  color:white;
+}
+
+.footer-txt{
+  text-align: left;
+  margin-top: 5%;
+}
+
+.footer-logo{
+  margin-top: 10%;
+}
+
+.footer-menu{
+  margin-top: 5%;
+  text-align: right;
+}
+
+.footer-menu:hover{
+  cursor: pointer;
+}
+
+.mobile-banner{
+  display: none;
+}
+
+.logo-img{
+  width: 15%
+}
+
+/*Top of screen for mobile*/
+h1.banner-title {
+  text-align: center;
+  color: black;
+  margin-top: 2%;
+  font-family: 'archivo black';
+}
+
+/*ABOUT US ACCORDION*/
+.accordion-button {
+  background-color: #398378;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-family: 'Archivo Black';
+}
+.accordion-button {
+  background-color: #398378;
+  color: #fff;
+  
+}
+.accordion-heading {
+  flex: 1;
+  margin-bottom: 0;
+  
+}
+
+.accordion-header {
+  margin-bottom: 10px;
+  
+}
+
+.accordion-body {
+  border: 1px solid #398378;
+  border-top: none;
+  padding: 10px;
+  background-color: #f5f5f5;
+  font-family: Verdana;
+  text-align: left;
+}
+
+/*BOOK BUTTON*/
+
+.containerdivider {
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.divider {
+  border: none;
+  border-top: 2px solid #35645d;
+  width: 68%; /* Adjust the width to make the line shorter */
+  margin: 30px auto; /* Center the line horizontally */
+
+}
+
+.BookForm {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h2.BookFormText {
+  text-align: center;
+  margin-bottom: 20px;
+  padding-top: 1cm;
+  font-family: 'Archivo Black';
+}
+
+label {
+  display: block;
+  margin-bottom: 40px;
+  max-width: 600px;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.BookButton {
+  background-color: #398378;
+  color: #fff;
+  padding: 20px 30px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: 'Archivo Black';
+  margin-bottom: 40px;
+}
+
+.BookButton:hover {
+  background-color: #398378;
+}
+
+.submitBtn {
+  background-color: #398378;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: 'Archivo Black';
+}
+
+.submitBtn:hover {
+  background-color: #398378;
+}
+
+
+/*MOBILE VERSION*/
+
+@media (max-width: 1000px) {
+
+  .footer-mobile-txt{
+    font-size: small;
+    text-align: center;
+  }
+
+  .mobile-padding{
+    padding-left: 8%;
+    padding-right: 8%;
+  }
+
+  .mobile-img-padding{
+    padding-bottom: 5%;
+  }
+
+  .about-subheading{
+    padding-top: 5%;
+  }
+
+  .banner-img{
+    width: 100%;
+  }
+
+  .banner-container{
+    display: none;
+  }
+
+  .mobile-banner{
+    display: block;
+  }
+
+  h1.about-title {
+    font-family: 'Archivo Black';
+    text-align: left;
+    color: #398378;
+    margin-top: 8%;
+    margin-bottom: 5%;
+  }
+
+  
+}
