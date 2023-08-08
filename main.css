@@ -6,19 +6,20 @@
 
 /*NAVIGATION BAR*/
 nav {
-  background-color: #398378;
+    background-color: #398378;
 }
 .nav-link {
-font-family: Verdana;
-font-weight: bold;
-font-size: larger;
+  font-family: Verdana;
+  font-weight: bold;
+  font-size: larger;
 }
 .navbar-text {
-  font-family: Notable;
-  color: white;
-  font-size: 30px;
-  margin-right: 10%;
+    font-family: Notable;
+    color: white;
+    font-size: 30px;
+    margin-right: 10%;
 }
+
 
 h2 {
     margin: 0;
@@ -138,6 +139,19 @@ h1.about-title {
   bottom: 0;
 }
 
+.banner-img-alps{
+  bottom: -60%;
+  width: 100%;
+  position: absolute;
+}
+
+.banner-img-ldn{
+  bottom: -75%;
+  width: 100%;
+  position: absolute;
+}
+
+
 /*ABOUT TEXT AND IMAGE (MAIN AND INDIVIDUAL*/
 .about-img{
   width: 100%;
@@ -199,7 +213,8 @@ h1.about-title {
 }
 
 .logo-img{
-  width: 15%
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 /*Top of screen for mobile*/
@@ -336,6 +351,8 @@ input[type="email"] {
   display: none;
 }
 
+
+
 /*MOBILE VERSION*/
 
 @media (max-width: 1000px) {
@@ -404,21 +421,21 @@ input[type="email"] {
 
   .carousel-item h1 {
     font-size: 30px;
-  }
+}
 
-  .carousel-inner .carousel-item img {
+.carousel-inner .carousel-item img {
   height: 500px; 
-  }
-  .carousel-item {
+}
+.carousel-item {
   height: 500px;
-  }
+}
 
-  .image-container{
+.image-container{
   width: 100%;
   padding: 5%;
-  }
+}
 
-  .image-container .overlay {
+.image-container .overlay {
   margin-left: 5%;
   margin-right: 5%;
   margin-bottom: 5%;
@@ -429,9 +446,12 @@ input[type="email"] {
   opacity: 0.7;
   background-color: rgba(0, 0, 0, 0.7); /* Set the desired background color */
   transition: opacity 0.3s ease-in-out;
-  }
+}
 
-  .description {
+.description {
   font-size: 20px; /* Set the desired font size */
-  }
+}
+
+
+  
 }
